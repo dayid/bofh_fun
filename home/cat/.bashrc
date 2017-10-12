@@ -1,6 +1,7 @@
 # The joys of working with users who try such things as "sudo su cat"
 # Requires you create a user, 'cat' with a shell
 # and set a sudo policy with ALL ALL=(root) NOPASSWD:NOEXEC:/usr/bin/su cat
+# No promises if they actually try to sudo su cat /path/file
 # Very dangerous, but all in fun.... right?
 
 meow(){
