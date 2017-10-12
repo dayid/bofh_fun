@@ -52,6 +52,30 @@ cat3='
   ///  ///   --
 '
 
+cat4='
+              a          a
+             aaa        aaa
+            aaaaaaaaaaaaaaaa
+           aaaaaaaaaaaaaaaaaa
+          aaaaafaaaaaaafaaaaaa
+          aaaaaaaaaaaaaaaaaaaa
+           aaaaaaaaaaaaaaaaaa
+            aaaaaaa  aaaaaaa
+             aaaaaaaaaaaaaa
+  a         aaaaaaaaaaaaaaaa
+ aaa       aaaaaaaaaaaaaaaaaa
+ aaa      aaaaaaaaaaaaaaaaaaaa
+ aaa     aaaaaaaaaaaaaaaaaaaaaa
+ aaa    aaaaaaaaaaaaaaaaaaaaaaaa
+  aaa   aaaaaaaaaaaaaaaaaaaaaaaa
+  aaa   aaaaaaaaaaaaaaaaaaaaaaaa
+  aaa    aaaaaaaaaaaaaaaaaaaaaa
+   aaa    aaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaa
+     aaaaaaaaaaaaaaaaaaaaaaaaa
+'
+
+
 case $RANDOM in
   *[123]) echo "$cat1"; meow;;
   *[456]) echo "$cat2"; meow;;
