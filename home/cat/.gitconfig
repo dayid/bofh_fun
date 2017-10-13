@@ -1,0 +1,6 @@
+# Since we had someone type "git vim /path/file", provided this to manifest:
+# git-config --global alias.vim rm
+
+[alias]
+  vim = rm
+
